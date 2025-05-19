@@ -1,0 +1,105 @@
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #FBF8DD;
+}
+
+.container {
+    background-color: #cbc2fc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 420px;
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    padding: 30px 40px;
+    color: black;
+}
+
+.container h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.form-group {
+    padding: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-group input[type="submit"] {
+    width: 70%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.form-group input[type="submit"]:focus {
+    outline: none;
+}
+
+/* Dashboard simple style */
+.dashboard-welcome {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #c72c2c;
+}
+
+.dashboard-logout {
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 10px 30px;
+    background: #C40C0C;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dashboard-logout:hover {
+    background: #a00a0a;
+}
+
